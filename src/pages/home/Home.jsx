@@ -59,10 +59,10 @@ const Home = () => {
         )
     }
     return (
-        <div className="mx-auto max-w-screen-lg mt-16 md:mt-8">
-            <div>
+        <div className="md:mx-auto max-w-screen-lg mt-20 mx-1 md:mt-8">
+            <div className="bg-primary text-white p-4 rounded-lg ">
                 <h1 className="text-xl font-semibold">Dashboard</h1>
-                <p className="text-gray-700 italic">Welcome to expense manage web portal</p>
+                <p className=" italic">Welcome to expense manage web portal</p>
             </div>
             <div>
                 <div className="flex flex-col md:flex-row mt-8 justify-around gap-4">

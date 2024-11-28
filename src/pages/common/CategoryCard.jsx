@@ -2,16 +2,8 @@
 
 const CategoryCard = (info) => {
     const { info: { name }, expenses, category } = info;
-    // const items = expenses.filter(expense => expense.category === name);
-    // console.log(expenses);
-    // console.log(info, category)
     const items = expenses.filter(item => item.category === category);
-    console.log(items)
-
-
-
-
-
+    // console.log(items)
 
     return (
         <div className="w-48 md:w-64 bg-slate-100 p-4 h-80 rounded-md">
